@@ -60,6 +60,9 @@
 .admin_texts {
   display: flex;
 }
+.map {
+  width: 100%;
+}
 .admin_card h3 {
   font-size: 24px;
   font-weight: 700;
@@ -135,4 +138,40 @@ button:active {
   display: flex;
   width: 100%;
   /* flex-direction: column; */
+}
+.desc_title {
+  display: flex;
+  gap: 12px;
+}
+.desc_title h4 {
+  border-radius: 30px;
+  font-size: 17px;
+  padding: 12px 24px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #7e7e7e;
+  cursor: pointer;
+  border: 1px solid #ececec;
+  transition: 0.1s all linear;
+}
+
+.desc_title h4:hover {
+  color: #3bb77e;
+  box-shadow: 5px 5px 15px 0px #0000000d;
+}
+.desc_contents {
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  padding: 40px 50px;
+}
+.desc_contents p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #7e7e7e;
+}
+.desc_product li {
+  display: flex;
+  gap: 50px;
+  align-items: start;
 }

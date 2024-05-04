@@ -31,7 +31,7 @@ const Home = () => {
       <Feature />
       <Shop />
       <Product />
-      <Stay />
+      {/* <Stay /> */}
       <CardIcons />
       {/* <Footer /> */}
     </div>

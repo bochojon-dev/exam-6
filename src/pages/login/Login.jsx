@@ -23,7 +23,7 @@ function Login() {
       .post("/auth/login", user)
       .then((res) => {
         console.log("res>>>", res.data.token);
-        toast.success("welcome");
+        toast.success("Welcome!");
         localStorage.setItem("x-auth-token", res.data.token);
         navigate("/admin");
       })

@@ -1,8 +1,10 @@
 import React from "react";
 import "../admin/Admin.css";
-// import ymaps from "ymaps";
+// import GoogleMapReact from "google-map-react";
+// import { GrLocation } from "react-icons/gr";
 import home from "../../assets/home.svg";
 import user from "../../assets/contact-image.png";
+import map from "../../assets/map.png";
 
 const Admin = () => {
   // ymaps
@@ -83,7 +85,7 @@ const Admin = () => {
               </div>
             </div>
           </div>
-          {/* <div className="map"></div> */}
+          <img className="map" src={map} alt="map" />
           <div className="admin_items">
             <div className="admin_card">
               <h3>Office</h3>

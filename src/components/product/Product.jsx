@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 import axios from "../../api";
 
 const Product = () => {
+  const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
   const [data, setData] = useState([]);
+  // const [category, setCategory] = useState("all");
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -15,8 +17,13 @@ const Product = () => {
       .catch((res) => console.log(res))
       .finally(() => setLoading(false));
   }, []);
-  console.log(data);
-  let products = data?.map((el) => (
+  // useEffect(() => {
+  //   axios
+  //     .get("/products/categories")
+  //     .then((res) => setCategory(res.data))
+  //     .catch((err) => console.log(err));
+  // }, []);
+  const products = data?.map((el) => (
     <div className="product_card" key={el.id}>
       <Link to={`/product/${el.id}`}>
         <img src={el.image} width={300} alt="product" />
@@ -26,6 +33,11 @@ const Product = () => {
       <button>Learn more</button>
     </div>
   ));
+  // const categories = category?.map((e, i) => (
+  //   <li key={i}>
+  //     <buttun name={e}>{e}</buttun>
+  //   </li>
+  // ));
   return (
     <div className="product">
       <div className="container">
@@ -34,12 +46,7 @@ const Product = () => {
             <h2>Popular Products</h2>
             <ul>
               <li>All</li>
-              <li>Milks & Dairies</li>
-              <li>Coffes & Teas</li>
-              <li>Pet Foods</li>
-              <li>Meats</li>
-              <li>Vegetables</li>
-              <li>Fruits</li>
+              {/* {categories} */}
             </ul>
           </div>
           <div className="product_cards">{products}</div>
