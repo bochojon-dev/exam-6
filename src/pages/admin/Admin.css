@@ -113,14 +113,26 @@ button:active {
   color: #b6b6b6;
   line-height: 24px;
 }
+.users {
+  display: flex;
+  justify-content: space-between;
+}
+
 .form {
   width: 870px;
+  gap: 20px;
+}
+.user input {
+  width: 420px;
+  outline: none;
 }
 .form textarea {
   width: 100%;
+  resize: none;
+  outline: none;
 }
 .users {
   display: flex;
   width: 100%;
-  flex-direction: column;
+  /* flex-direction: column; */
 }

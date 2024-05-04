@@ -11,6 +11,7 @@ import { ToastContainer } from "react-toastify";
 import Auth from "./pages/auth/Auth";
 import NotFound from "./pages/notFound/NotFound";
 import SingleRoute from "./pages/singleRoute/SingleRoute";
+import Stay from "./components/stay/Stay";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Stay />
       {/* <ToastContainer /> */}
       <Footer />
     </div>

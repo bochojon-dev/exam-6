@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../navbar/Navbar.css";
 import logo from "../../assets/Link-logo.png";
 import { IoSearchOutline } from "react-icons/io5";
