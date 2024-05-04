@@ -18,7 +18,12 @@
   font-weight: 600;
   color: #253d4e;
   cursor: pointer;
+  margin: 0 !important;
 }
 .items p:hover {
   color: #3bb77e;
+}
+.feature_item p,
+h4 {
+  margin: 0;
 }

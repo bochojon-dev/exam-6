@@ -95,8 +95,9 @@ button:active {
 }
 .form_contents {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  /* gap: 240px; */
 }
 .form h3 {
   font-size: 20px;
@@ -128,15 +129,29 @@ button:active {
 .user input {
   width: 420px;
   outline: none;
+  padding: 22px;
+  border-radius: 10px;
+  border: 1px solid #ececec;
 }
 .form textarea {
-  width: 100%;
+  width: 910px;
+  margin: 20px 0 100px;
+  height: 200px;
   resize: none;
   outline: none;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  padding: 22px;
+}
+.user {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
 .users {
   display: flex;
   width: 100%;
+  gap: 20px;
   /* flex-direction: column; */
 }
 .desc_title {

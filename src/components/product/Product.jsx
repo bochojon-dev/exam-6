@@ -28,11 +28,15 @@ const Product = () => {
       <Link to={`/product/${el.id}`}>
         <img src={el.image} width={300} alt="product" />
       </Link>
-      <h2>{el.title}</h2>
-
+      <h3>{el.title}</h3>
+      <p>{el.rate}</p>
+      <p>
+        By <span>`${el.category}`</span>
+      </p>
       <button>Learn more</button>
     </div>
   ));
+
   // const categories = category?.map((e, i) => (
   //   <li key={i}>
   //     <buttun name={e}>{e}</buttun>

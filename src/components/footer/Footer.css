@@ -93,3 +93,9 @@
 .footer_contents p {
   margin: 6px !important;
 }
+.footer {
+  margin-top: 150px;
+}
+.admin_item p {
+  margin: 0 !important;
+}

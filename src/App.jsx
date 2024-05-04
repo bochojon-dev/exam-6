@@ -16,22 +16,25 @@ import Stay from "./components/stay/Stay";
 function App() {
   return (
     <div className="App">
-      <HeaderTop />
-      <Navbar />
-      <HeaderBottom />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/product/:id" element={<SingleRoute />} />
-        <Route path="/login" element={<Login />} />
+      <div className="container">
+        <HeaderTop />
+        <Navbar />
+        <HeaderBottom />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/product/:id" element={<SingleRoute />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/about" element={<SingleRoute />} />
 
-        <Route path="/" element={<Auth />}>
-          <Route path="admin" element={<Admin />} />
-        </Route>
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-      <Stay />
-      <ToastContainer />
-      <Footer />
+          <Route path="/" element={<Auth />}>
+            <Route path="admin" element={<Admin />} />
+          </Route>
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Stay />
+        <ToastContainer />
+        <Footer />
+      </div>
     </div>
   );
 }
