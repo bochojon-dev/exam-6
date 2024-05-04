@@ -22,6 +22,7 @@ const Product = () => {
         <img src={el.image} width={300} alt="product" />
       </Link>
       <h2>{el.title}</h2>
+
       <button>Learn more</button>
     </div>
   ));

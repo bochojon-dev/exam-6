@@ -19,7 +19,20 @@
   color: #3bb77e;
 }
 .product_cards {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.product_card {
+  padding: 12px 16px;
+  width: 340px;
+}
+.product_card img {
+  width: 270px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
