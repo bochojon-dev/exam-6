@@ -1,0 +1,118 @@
+.banner_swiper img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+}
+.banner {
+  padding: 250px 0 40px;
+  position: relative;
+}
+.swiper-button-prev:after {
+  color: #7e7e7e !important;
+  padding: 10px 20px;
+  border-radius: 40px;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  background: #f2f3f4;
+  text-align: center;
+}
+.swiper-button-next {
+  color: #7e7e7e !important;
+  padding: 12px 20px;
+  border-radius: 40px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  background: #f2f3f4;
+  text-align: center;
+}
+.swiper-button-next:hover {
+  background: #fff;
+  color: black !important;
+}
+.swiper-button-prev:hover {
+  background: #fff;
+  color: black !important;
+}
+.banner_content h3 {
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 700;
+  /* color: #253d4e; */
+  color: #fff;
+  width: 600px;
+  padding: 0;
+  margin: 0 !important;
+}
+.banner_content p {
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  width: 500px;
+  margin: 0 !important;
+  padding: 24px 0 36px;
+}
+.email {
+  width: 450px;
+  border-radius: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.send_email {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.banner_content {
+  position: absolute;
+  top: 120px;
+  left: 90px;
+}
+.email input {
+  border: 0;
+  padding: 22px;
+}
+.email button {
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  padding: 22px 40px;
+  border-radius: 50px;
+}
+.feature_items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 50px 0 45px;
+}
+.feature_item {
+  padding: 20px 0;
+  display: flex;
+  width: 135px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #f4f6fa;
+}
+.feature_item h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #7e7e7e;
+  padding: 16px 0 4px;
+}
+.feature_item p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7e7e7e;
+}

@@ -1,0 +1,24 @@
+.title {
+  display: flex;
+  align-items: end;
+  gap: 30px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+.title h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #253d4e;
+}
+.items p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #253d4e;
+  cursor: pointer;
+}
+.items p:hover {
+  color: #3bb77e;
+}

@@ -1,0 +1,126 @@
+.admin_header {
+  padding-top: 240px !important;
+  display: flex;
+  gap: 10px;
+  align-items: end;
+}
+.admin_header {
+  border-bottom: 1px solid #ececec;
+}
+.home_link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.admin_header p {
+  color: #7e7e7e;
+  font-size: 16px;
+  font-weight: 400;
+}
+.admin_header p:hover {
+  color: #3bb77e;
+}
+.admin_title .title_help {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3bb77e;
+  padding-top: 20px;
+}
+.admin_item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #253d4e;
+}
+.admin_item h3:hover {
+  color: #3bb77e;
+}
+.admin_item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7e7e7e;
+  line-height: 24px;
+}
+.admin_item h2 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+}
+.admin_items {
+  display: flex;
+  align-items: end;
+  gap: 30px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+.admin_item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.admin_texts {
+  display: flex;
+}
+.admin_card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #3bb77e;
+}
+.admin_card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #7e7e7e;
+}
+.admin_card button {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  padding: 12px 20px;
+  background: #3bb77e;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.95);
+}
+.address {
+  margin: 18px 0 24px;
+}
+.form_contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3bb77e;
+  line-height: 24px;
+}
+.form h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #253d4e;
+  line-height: 48px;
+}
+.form p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #b6b6b6;
+  line-height: 24px;
+}
+.form {
+  width: 870px;
+}
+.form textarea {
+  width: 100%;
+}
+.users {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}

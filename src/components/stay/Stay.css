@@ -1,0 +1,40 @@
+.banner_content1 h3 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #253d4e;
+  width: 530px;
+}
+.banner_content1 p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #7e7e7e;
+  width: 500px;
+  padding: 24px 0 48px;
+}
+.banner_content1 p span {
+  color: #3bb77e;
+}
+.email {
+  width: 450px;
+  border-radius: 50px;
+  /* background: ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.send_email {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.stay {
+  background: #d8f1e5;
+}
+.stay_contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px 0 80px;
+}

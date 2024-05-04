@@ -1,0 +1,35 @@
+.card_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  padding: 40px 0 65px;
+  gap: 10px;
+}
+.card_icon {
+  background: #f4f6fa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 0;
+  width: 290px;
+  margin-bottom: 16px;
+}
+.icon_text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #242424;
+}
+.icon_text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #adadad;
+}
+.icon_text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 4px;
+}
